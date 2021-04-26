@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background: #734B5E;
+    background-image: url('https://image.freepik.com/free-vector/math-background_23-2148147248.jpg');
+    background-repeat: repeat;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+    width: 700px;
+    border-style: solid;
+    border-width: 2.5px;
+    background-color: #565857;
+}
+
+.display {
+    height: 60px;
+    width: 620px;
+    margin-top: 20px; 
+    font-size: 50px;
+    text-align: right;
+    outline: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.boton {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    background-color: #BCBDC0;
+    transition: all 0.4s ease 0s;
+}
+
+.boton:hover {
+    color: #010101 !important;
+    background: #F5D3C8;
+    border-color: #F5D3C8 !important;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;  
+}
